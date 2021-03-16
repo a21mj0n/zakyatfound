@@ -1,0 +1,266 @@
+strong {
+    color: #349567;
+    font-size: 21px;
+}
+
+.top_panel_wrap .contact_button, .top_panel_wrap .contact_button_fix {
+    margin-left: 2.4em;
+}
+
+.top_panel_wrap .contact_button, .top_panel_wrap .contact_button_fix, .top_panel_wrap .contact_socials {
+    float: right;
+    margin: 1.65em 0;
+    line-height: 0;
+    margin-top: 60px;
+}
+
+.contact_button > a.first_button {
+    background-color: #349567;
+    color: #ffffff;
+}
+
+a {
+    color: #349567;
+}
+
+a:hover {
+    color: #ff7e27;
+}
+
+.contact_button > a, .contact_button_fix > a {
+    font-size: 0.875em;
+    display: inline-block;
+    text-align: center;
+    padding: 0.77em 2.1em;
+    font-weight: 700;
+    line-height: 1.4em;
+    letter-spacing: -0.012em;
+    text-transform: uppercase;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+a.first_button:hover {
+    color: #fff;
+    background-color: #ff7e27;
+}
+
+ul li a {
+    font-size: 1rem;
+}
+
+.search_wrap.search_state_closed {
+    width: 2.2857em;
+}
+
+.search_wrap.search_state_closed:not(.top_panel_icon) {
+    min-width: 0;
+    width: 1.5em;
+}
+
+.search_wrap {
+    float: right;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    padding-left: 0;
+}
+
+.search_wrap, .search_wrap .search_submit, .search_wrap .search_field, .top_panel_middle .search_wrap, .top_panel_middle .search_wrap .search_submit, .top_panel_middle .search_wrap .search_field {
+    line-height: 2.2857em;
+}
+
+.search_wrap:not(.search_state_fixed) {
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+.search_wrap {
+    position: relative;
+    max-width: 10em;
+    min-width: 2.2857em;
+    z-index: 1000;
+}
+
+.search_style_fullscreen .search_form {
+    padding: 0;
+    text-align: center;
+}
+
+.search_wrap form {
+    width: 100%;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search_style_fullscreen.search_state_closed .search_submit:hover {
+    color: #333333;
+}
+
+.search_style_fullscreen.search_state_closed .search_submit {
+    color: #349567;
+}
+
+.top_panel_wrap .search_style_fullscreen.search_state_closed .search_field {
+    display: none;
+}
+
+.top_panel_inner_style_1 .search_field, .top_panel_inner_style_2 .search_field, .top_panel_inner_style_3 .search_field {
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 126, 39, 0.2);
+}
+
+.search_style_fullscreen.search_state_closed .search_field {
+    background-color: transparent !important;
+}
+
+.search_wrap, .search_wrap .search_submit, .search_wrap .search_field, .top_panel_middle .search_wrap, .top_panel_middle .search_wrap .search_submit, .top_panel_middle .search_wrap .search_field {
+    line-height: 2.2857em;
+}
+
+.search_wrap .search_field {
+    width: 100%;
+    padding-left: 2.2857em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search_wrap .search_field {
+    border: none;
+}
+
+.search_style_fullscreen.search_state_closed .search_close {
+    display: none;
+}
+
+a {
+    color: #349567;
+}
+
+.sc_button.sc_button_style_filled2:hover {
+    background-color: #349567;
+    color: #ffffff;
+}
+
+.sc_button.sc_button_style_filled2 {
+    background-color: #ff7e27;
+    color: #ffffff;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 130px;
+    border-width: 0px;
+    margin: 0 0 0 10rem;
+    padding: 27px 92px 27px 43px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sc_button.sc_button_style_filled3 {
+    background-color: #ffe400;
+    color: #000;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 130px;
+    border-width: 0px;
+    padding: 25px 30px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sc_button.sc_button_style_filled3:hover {
+    background-color: #ff7e27;
+    color: #ffffff;
+}
+
+.sc_button.sc_button_style_filled22 {
+    background-color: #ff7e27;
+    color: #000;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 130px;
+    border-width: 0;
+    padding: 25px 30px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sc_button.sc_button_style_filled22:hover {
+    background-color: #349567;
+    color: #ffffff;
+}
+
+.sc_button.sc_button_style_filled1 {
+    background-color: #349567;
+    color: #000;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 130px;
+    border-width: 0;
+    padding: 25px 30px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sc_button.sc_button_style_filled1:hover {
+    background-color: #ff7e27;
+    color: #ffffff;
+}
+
+
+.intro {
+    background-repeat: no-repeat;
+    background-image: url(https://zakatfund.ru/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGemFrYXRmdW5kLnJ1JTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDE3JTJGMDYlMkZ2b3pseXViaV9ibGlqbmVnby5qcGcmY2FjaGVNYXJrZXI9MTYwMDA5NTY5Ny0xMzE1NTQmdG9rZW49NDZlZjJkOTdmYjMzMmI2Ng.q.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.intro2 {
+    background-repeat: no-repeat;
+    background-image: url(https://zakatfund.ru/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGemFrYXRmdW5kLnJ1JTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDE2JTJGMDklMkZwb21vZ2lfc2lyb3RlLmpwZyUzRmlkJTNEMzI5NiZjYWNoZU1hcmtlcj0xNjAwMDk1Njg2LTIwNzcyMiZ0b2tlbj0xNDI2MTFlZDYwMzE5NmUz.q.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+.intro3 {
+    background-repeat: no-repeat;
+    background-image: url(https://zakatfund.ru/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGemFrYXRmdW5kLnJ1JTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDE2JTJGMDklMkZ2b2xvbnRlcnlfemFreWF0LmpwZyUzRmlkJTNEMzQyMCZjYWNoZU1hcmtlcj0xNjAwMDk1Njg3LTE0MDUxNCZ0b2tlbj1mNmE4ZTNkMmYwODVmNGM1.q.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+.intro4 {
+    background-repeat: no-repeat;
+    background-image: url(https://zakatfund.ru/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGemFrYXRmdW5kLnJ1JTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDE3JTJGMDYlMkZ6YWt5YXRfcmFzc2NoaXRhdC5qcGclM0ZpZCUzRDM4MTQmY2FjaGVNYXJrZXI9MTYwMDA5NTY5Ny0zMzA3MDcmdG9rZW49YWM3MTY5MTM4YTgxMTQ0NA.q.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+.our-mission {
+    padding: 5rem 0;
+}
+
+.our-mission__title {
+    font-weight: 800;
+}
+
