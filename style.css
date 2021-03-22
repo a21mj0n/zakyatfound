@@ -156,11 +156,31 @@ a {
     line-height: 130px;
     border-width: 0px;
     margin: 0 0 0 10rem;
-    padding: 27px 92px 27px 43px;
+    padding: 27px 70px 27px 70px;
     letter-spacing: -1px;
     font-weight: 700;
     font-size: 24px;
 }
+
+@media (max-width: 768px) {
+    .sc_button.sc_button_style_filled2 {
+        margin: 0 !important;
+    }
+
+    .intro4 .container .text-black > p {
+        font-size: 30px !important;
+    }
+
+    .intro2 .col-lg-6 .first-text {
+        font-size: 60px !important;
+        line-height: 60px !important;
+    }
+
+    .button-intro2 {
+        font-size: 22px !important;
+    }
+}
+
 
 .sc_button.sc_button_style_filled3 {
     background-color: #ffe400;
@@ -263,4 +283,10 @@ a {
 .our-mission__title {
     font-weight: 800;
 }
+
+.slick-prev {
+    background: #349567 !important;
+    color: #000000 !important;
+}
+
 
