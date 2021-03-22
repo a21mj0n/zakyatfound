@@ -1,5 +1,5 @@
 strong {
-    color: #349567;
+    color: #007bff;
     font-size: 21px;
 }
 
@@ -15,12 +15,18 @@ strong {
 }
 
 .contact_button > a.first_button {
-    background-color: #349567;
+    background-color: #007bff;
     color: #ffffff;
 }
 
+.contact_button > a.first_button:hover {
+    border: 1px solid #007bff;
+    background-color: #ffffff;
+    color: #007bff;
+}
+
 a {
-    color: #349567;
+    color: #007bff;
 }
 
 a:hover {
@@ -43,7 +49,7 @@ a:hover {
 
 a.first_button:hover {
     color: #fff;
-    background-color: #ff7e27;
+    background-color: #007bff;
 }
 
 ul li a {
@@ -103,7 +109,7 @@ ul li a {
 }
 
 .search_style_fullscreen.search_state_closed .search_submit {
-    color: #349567;
+    color: #007bff;
 }
 
 .top_panel_wrap .search_style_fullscreen.search_state_closed .search_field {
@@ -140,16 +146,17 @@ ul li a {
 }
 
 a {
-    color: #349567;
+    color: #007bff;
+    text-decoration: none !important;
 }
 
 .sc_button.sc_button_style_filled2:hover {
-    background-color: #349567;
-    color: #ffffff;
+    background-color: #fff;
+    color: #007bff;
 }
 
 .sc_button.sc_button_style_filled2 {
-    background-color: #ff7e27;
+    background-color: #007bff;
     color: #ffffff;
     transition: none 0s ease 0s;
     text-align: inherit;
@@ -183,8 +190,8 @@ a {
 
 
 .sc_button.sc_button_style_filled3 {
-    background-color: #ffe400;
-    color: #000;
+    background-color: #007bff;
+    color: #ffffff;
     transition: none 0s ease 0s;
     text-align: inherit;
     line-height: 130px;
@@ -196,7 +203,8 @@ a {
 }
 
 .sc_button.sc_button_style_filled3:hover {
-    background-color: #ff7e27;
+    background-color: transparent;
+    border: 2px solid #ffffff;
     color: #ffffff;
 }
 
@@ -214,12 +222,12 @@ a {
 }
 
 .sc_button.sc_button_style_filled22:hover {
-    background-color: #349567;
+    background-color: #007bff;
     color: #ffffff;
 }
 
 .sc_button.sc_button_style_filled1 {
-    background-color: #349567;
+    background-color: #007bff;
     color: #000;
     transition: none 0s ease 0s;
     text-align: inherit;
@@ -285,7 +293,7 @@ a {
 }
 
 .slick-prev {
-    background: #349567 !important;
+    background: #007bff !important;
     color: #000000 !important;
 }
 
