@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./slick/slick.css">
   <link rel="stylesheet" href="./slick/slick-theme.css">
+  <link rel="stylesheet" href="./search/main.css">
   <title>Zakot</title>
 </head>
 
@@ -52,13 +53,28 @@
         </a>
       </li>
       <li class="ml-auto">
-        <button type="submit" title="Open search" class="border-0 bg-transparent" style="cursor: pointer;">
+        <button id="search-btn" type="submit" title="Open search" class="border-0 bg-transparent"
+                style="cursor: pointer;">
           <i class="fas fa-search"></i>
         </button>
       </li>
     </ul>
   </div>
 </nav>
+
+<div id="search-overlay" class="block">
+  <div class="centered">
+    <div id="search-box">
+      <i id="close-btn" class="fa fa-times fa-2x"></i>
+      <form action="/search" id="search-form" method="get" target="_top">
+        <input id="search-text" name="q" placeholder="Search" type="text" />
+        <button id="search-button" type="submit">
+          <span>Search</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
 
 <section class="intro" style="height: 700px;">
   <div class="row mx-0">
@@ -518,6 +534,7 @@
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="main.js"></script>
+<script src="search/main.js"></script>
 </body>
 
 </html>
